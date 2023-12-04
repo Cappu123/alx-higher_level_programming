@@ -44,7 +44,7 @@ int is_palindrome(listint_t **head)
 		fast = fast->next->next;
 		if (!fast)
 		{
-			dup = slow->next;z
+			dup = slow->next;
 				break;
 		}
 		if (!fast->next)
