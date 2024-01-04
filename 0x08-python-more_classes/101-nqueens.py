@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# Author - Bereket Dereje
+
 """Solves the N-queens puzzle.
 
 Determines all possible solutions to placing N
