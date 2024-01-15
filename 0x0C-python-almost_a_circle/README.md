@@ -32,6 +32,8 @@ You will also learn about:
 <li>JSON</li>
 </ul>
 
+![Cat](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/331/giphy.mp4)
+
 ## Resources
 
 **Read or watch:**
