@@ -17,7 +17,7 @@ if __name__ == "__main__":
     query1 = c.execute("""SELECT * FROM states
                         WHERE name LIKE %s""", (match, ))
                         
-    rows = c.fetchall()
+    rows = c.fetchall(query1)
     for row in rows:
         print(row)
     cur.close()
