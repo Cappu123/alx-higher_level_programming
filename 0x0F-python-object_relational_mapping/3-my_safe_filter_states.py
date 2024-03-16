@@ -15,8 +15,8 @@ if __name__ == "__main__":
     c =db.cursor()
     match = sys.argv[4]
     query1 = c.execute("""SELECT * FROM states
-                        WHERE name LIKE BINARY '{}'
-                        ORDER BY states.id ASC""".format(match))
+                        WHERE name LIKE %s""", (match, ))
+                        
     rows = c.fetchall()
     for row in rows:
         print(row)
